@@ -1,0 +1,63 @@
+<div class="main-wrapper home-two">
+    <div id="home-banner">
+        <app-home></app-home>
+    </div>
+    <div class="container">
+        <div id="navigation" class="menu-two">
+            <div class="navbar navbar-expand-lg" id="nabnarId" [ngClass]="{'fixed-top animated fadeInDown':isFixed}">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+                    </button>
+                    <div class="navbar-brand logo">
+                        <a href="index.html"><img class="img-fluid" src="images/logo.png" alt="Image"></a>
+                    </div>
+                </div>
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <nav id="mainmenu">
+                        <ul class="nav navbar-nav">
+                            <li class="scroll"><a href="#home-banner">Home</a></li>
+                            <li class="scroll"><a href="#about">About Me</a></li>
+                            <li class="scroll"><a href="#skill">Skills</a></li>
+                            <li class="scroll"><a href="#exprience">Experience</a></li>
+                            <li class="scroll"><a href="#education">Education</a></li>
+                            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                            <li class="scroll"><a href="#contact">Contact</a></li>
+                            <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about-section section-padding">
+        <app-about></app-about>
+    </div>
+    <div id="skill" class="skill-section bg-color section-padding">
+        <app-skills></app-skills>
+    </div>
+    <div id="exprience" class="exprience-section section-padding">
+        <app-experience></app-experience>
+    </div>
+    <div id="education" class="education-section bg-color section-padding">
+        <app-education></app-education>
+    </div>
+    <div id="portfolio" class="portfolio-section section-padding">
+        <app-portfolio></app-portfolio>
+    </div>
+    <div id="contact" class="contact-section bg-color section-padding">
+        <app-contact></app-contact>
+    </div>
+    <div id="profile" class="profile-section  bg-color section-padding">
+        <app-resume></app-resume>
+    </div>
+
+    <div id="footer">
+        <div class="container text-center">
+            <div class="footer">
+                <p> &copy; 2016 <a href="#">Surzil Geek.</a> All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
