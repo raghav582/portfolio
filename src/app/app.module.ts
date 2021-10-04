@@ -28,7 +28,7 @@ import { ResumeComponent } from './resume/resume.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
