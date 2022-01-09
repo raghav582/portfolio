@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
   }
 
-  @HostListener('window:scroll')
+  // @HostListener('window:scroll')
   counter() {
     let docViewTop = $(window).scrollTop();
     let elemTop = $("#aboutid").offset().top;
