@@ -1,4 +1,15 @@
 img {
     height: 192.5px;
     width: 192.5px;
+<<<<<<< HEAD
+=======
+}
+
+#iiit-img {
+    padding: 10px;
+}
+
+#school-img {
+    padding: 10px;
+>>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
 }
