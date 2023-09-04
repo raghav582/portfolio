@@ -15,24 +15,6 @@ export class AboutComponent implements OnInit {
 
   // @HostListener('window:scroll')
   counter() {
-<<<<<<< HEAD
-    let docViewTop = $(window).scrollTop();
-    let elemTop = $("#aboutid").offset().top;
-
-    if (true) {
-      $('.counter').prop('Counter', 0).animate({
-        Counter: 4
-      }, {
-        duration: 1000,
-        easing: 'swing',
-        delay: 10,
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
-      }
-      );
-    }
-=======
     // let docViewTop = $(window).scrollTop();
     // let elemTop = $("#aboutid").offset().top;
 
@@ -49,6 +31,5 @@ export class AboutComponent implements OnInit {
     //   }
     //   );
     // }
->>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
   }
 }

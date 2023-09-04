@@ -1,51 +1,30 @@
-<<<<<<< HEAD
-=======
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
->>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-<<<<<<< HEAD
-=======
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
->>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-<<<<<<< HEAD
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-=======
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
->>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
     "lib": [
       "es2018",
       "dom"
     ]
   },
   "angularCompilerOptions": {
-<<<<<<< HEAD
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-=======
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
->>>>>>> 04fe833ff7be11e1fe171feef65cb55144392419
   }
 }
