@@ -1,0 +1,72 @@
+#home-banner {
+    background-image: url(../../assets/images/bg/2.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+}
+
+.banner-info {
+    position: absolute;
+    bottom: 25%;
+}
+
+.banner-info #sub-heading::after {
+    content: "";
+    animation: pulse 15s ease-in infinite;
+}
+
+@keyframes pulse {
+    0% {
+        content: "I am a Freelance Full Stack Developer";
+    }
+
+    10% {
+        content: "with 4+ years of experience";
+    }
+
+    20% {
+        content: "with expertise in Java, JavaScript";
+    }
+
+    30% {
+        content: "TypeScript, Angular, Spring Boot, and more";
+    }
+
+    40% {
+        content: "Strong analytical thinking ";
+    }
+
+    50% {
+        content: "and problem-solving ability";
+    }
+
+    60% {
+        content: "coupled with excellent communication";
+    }
+
+    70% {
+        content: "and teamwork skills";
+    }
+
+    80% {
+        content: "Demonstrated adapbtbility";
+    }
+
+    90% {
+        content: "sense of responsibility";
+    }
+
+    100% {
+        content: "and leadership qualities";
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #home-banner {
+        background-color: rgba(2, 21, 59, 0.5);
+    }
+
+    .banner-info {
+        color: white;
+    }
+}
