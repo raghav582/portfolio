@@ -1,0 +1,30 @@
+span {
+    font-weight: bold;
+}
+
+.counter {
+    font-size: xxx-large;
+    color: rgba(255, 166, 0, 0.863);
+}
+
+.counter1 {
+    color: rgba(0, 128, 0, 0.781);
+}
+
+.counter2 {
+    color: rgba(255, 0, 0, 0.692);
+}
+
+.counter3 {
+    color: rgba(0, 0, 255, 0.719);
+}
+
+.achievement {
+    list-style: none;
+    display: inline;
+}
+
+.achievement>li {
+    display: inline;
+    float: left;
+}
