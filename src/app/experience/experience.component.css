@@ -9,3 +9,15 @@ img {
 #iit-image {
     padding: 24px;
 }
+
+.img-fluid {
+    width: 150px;
+}
+
+.img-fluid:hover {
+    width: 180px;
+}
+
+.exprience-info {
+    text-align: justify;
+}
