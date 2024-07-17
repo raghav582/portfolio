@@ -1,3 +1,18 @@
 p span {
     font-weight: 700;
 }
+
+.percent {
+    height: 6rem;
+    width: 6rem;
+    padding: 10px;
+    color: white;
+}
+
+.percent1 {
+    background-color: rgba(0, 0, 255, 0.733);
+}
+
+.percent2 {
+    background-color: rgba(0, 128, 0, 0.726);
+}
